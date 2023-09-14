@@ -47,7 +47,7 @@ for button_text in buttons:
         label_frame = tk.Frame(button_frame)
         label_frame.grid(row=3, column=1, columnspan=2)  # Đặt columnspan=2 cho Frame
 
-        tk.Label(label_frame, text="MÁY TÍNH CẦM TAY", font=("lucida", 16, "bold")).pack(fill="both", expand=True)  # Đặt font
+        tk.Label(label_frame, text="MÁY TÍNH CẦM TAY", font=("arial", 16)).pack(fill="both", expand=True)  # Đặt font
     col += 1
     if col > 3:
         col = 0
